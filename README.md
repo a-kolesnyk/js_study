@@ -4,4 +4,7 @@ leading book Marein Haverbeke Eloquent JavaScript
 
 
 
-test 2; 
+test 01 - no upstream conifgured for branch master;
+test 02 -  can`t merge upstream/master;
+test 03 - marged upstream but error exist;
+test 04 - mostly syncromized, but VS code doeshn`t push;
