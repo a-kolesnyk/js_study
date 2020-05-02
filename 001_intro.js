@@ -1,5 +1,5 @@
 "use strict";
-alert('«Я JavaScript!».');
+/* alert('«Я JavaScript!».');
 
 let user = 'John'
     , age = 25
@@ -28,6 +28,12 @@ admin = name;
 alert(admin);
 
 let myPrivatePlanet;
-let currentUserName;
+let currentUserName; */
+
+let value = true;
+alert(typeof value); // boolean
+
+value = Number(value); // теперь value это строка "true"
+alert(typeof value); // number
 
 
