@@ -1,1 +1,23 @@
+# javascript.ru
+# JS Course
 
+<!-- its comment -->
+
+- [ ] <script src="" > </script>
+Atribute using full path or file in current folder;
+<script src="file.js">
+  alert(1); // содержимое игнорируется, так как есть атрибут src
+</script>
+
+- [ ] alert(); - popup - dialog window;
+- [ ] 'use strict' (or "") - директива обратной совместимости для старого кода. Должна находиться в начале скрипта;
+    лучше всегда использовать директиву
+    начинать скрипт с нее
+    директиву после указания нельзя отменить
+- [ ] variables = let; (let _name = x, _name2 = x2;)
+    var is old variant of let;
+    Регистр имеет значение
+- [ ] const  (pageLoadTime = static; COLOR_BLUE - statick = max)
+    константы с именами, записанными заглавными буквами, используются 
+    только как псевдонимы для «жёстко закодированных» значений.
+    
