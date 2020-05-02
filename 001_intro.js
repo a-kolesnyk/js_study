@@ -20,7 +20,8 @@ alert(COLOR_RED);
 
     //task001
 let admin
-    , name;
+    , name
+    , secondName;
 
 name = 'John';
 admin = name;
