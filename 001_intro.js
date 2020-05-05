@@ -75,7 +75,7 @@ console.log(9 / 2);
 console.log(2 ** 2);
 
 let counter = 2
-    , counter2
+    , counter2 = 4;
     , counter3 = 3;
 ++counter;
 console.log(counter + counter3);
