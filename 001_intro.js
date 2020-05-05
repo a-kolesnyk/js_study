@@ -65,21 +65,22 @@ answ1 = true + false;
 answ1updated = String(answ1);
 answ7 = 0 + 0;
 
-console.log(typeof answ1);
-console.log(typeof answ1updated);
-console.log(answ1updated);
-console.log(answ1 + answ1updated);
-console.log(typeof `${0 + 0}`);
-console.log(9 % 2); 
-console.log(9 / 2);
-console.log(2 ** 2);
+console.log( typeof answ1 );
+console.log( typeof answ1updated );
+console.log( answ1updated );
+console.log( answ1 + answ1updated );
+console.log( typeof `${0 + 0}` );
+console.log( 9 % 2 ); 
+console.log( 9 / 2 );
+console.log( 2 ** 2 );
 
 let counter = 2
-    , counter2 = 4;
+    , counter2 = 4
     , counter3 = 3;
 ++counter;
-console.log(counter + counter3);
+console.log( counter + counter3 );
 
-
+console.log( null === undefined ); // false
+console.log( null == undefined ); // true
 
 
