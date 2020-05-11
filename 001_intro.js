@@ -42,7 +42,7 @@ alert("1 + 0"); // 1 + 0
 alert(1 + 0); // 1
 
 alert(true + false); //1
-*/
+
 
 
 console.log("answ1:", true + false);  // converts to 1 / 0 -> 1+0 = 1;
@@ -85,3 +85,6 @@ console.log( null == undefined ); // true
 
 
 console.log ( null === +"\n0\n" ); 
+
+*/
+
