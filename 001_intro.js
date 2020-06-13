@@ -86,5 +86,24 @@ console.log( null == undefined ); // true
 
 console.log ( null === +"\n0\n" ); 
 
+
+
+let name = prompt('Say your name', "");
+alert(`Hello, ${name}`);
+
+let question = confirm(`${name} are u the boss?`)
+alert(question);
 */
+
+
+let year = prompt('В каком году появилась спецификация ECMAScript-2015?', '');
+
+if (year < 2015) {
+  alert( 'Это слишком рано...' );
+} else if (year > 2015) {
+  alert( 'Это поздновато' );
+} else {
+  alert( 'Верно!' );
+}
+
 
